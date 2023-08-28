@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Aria - Portfolio</title>
+
+		<!-- my style -->
+		<link rel="stylesheet" href="style.css" />
+
+		<!--icon -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+	</head>
+	<body>
+		<!-- header -->
+		<header>
+			<nav>
+				<h1>Aria.</h1>
+				<ul>
+					<li><a id="link-home" href="#home">Home</a></li>
+					<li><a id="link-about" href="#about">About</a></li>
+					<li><a id="link-edu" href="#edu">Education</a></li>
+					<li><a id="link-portfolio" href="#portfolio">Portfolio</a></li>
+				</ul>
+				<a class="btn" href="#contact">Contact Me</a>
+				<div class="toggle">
+					<i class="bi bi-grid"></i>
+				</div>
+			</nav>
+		</header>
+		<div class="content-toggle">
+			<ul>
+				<li><a id="link-home" href="#home">Home</a></li>
+				<li><a id="link-about" href="#about">About</a></li>
+				<li><a id="link-edu" href="#edu">Education</a></li>
+				<li><a id="link-portfolio" href="#portfolio">Portfolio</a></li>
+			</ul>
+			<button type="button">Contact Me</button>
+		</div>
+		<!-- end header -->
+
+		<!-- main -->
+		<main id="home">
+			<div class="content">
+				<p>Hello I'm</p>
+				<h1>NUR <span>ARIA</span> HIBNASTIAR</h1>
+				<h5 class="animate">Passionate at <span>UI Design</span></h5>
+			</div>
+
+			<div class="triangle">
+				<img src="img/triangle01.svg" alt="" />
+				<img src="img/triangle02.svg" alt="" />
+			</div>
+		</main>
+
+		<section id="about">
+			<div class="img">
+				<img src="img/Profile1.png" alt="" />
+			</div>
+			<div class="content">
+				<h2>About Me</h2>
+				<p>
+					Hello, my name is <b>Aria</b>, an informatics engineering student, who
+					has experience in making UI/UX Design, both mobile applications and
+					websites, as well as making graphic designs. Apart from that, I also
+					gained experience in creating responsive websites in Web Programming
+					and Information Systems courses.
+				</p>
+			</div>
+		</section>
+
+		<section id="edu">
+			<h2>My Education</h2>
+			<div class="box">
+				<div class="left">
+					<div class="content">
+						<h3>S1 - TEKNIK INFORMATIKA</h3>
+						<p>INSTITUT TEKNOLOGI NASIONAL MALANG</p>
+						<p>2021 - NOW</p>
+					</div>
+					<img src="img/itn.svg" alt="logo-itn" />
+				</div>
+				<div class="mid">
+					<img src="img/line-edu.svg" alt="" />
+				</div>
+				<div class="right">
+					<img src="img/revou.svg" alt="logo-itn" />
+					<div class="content">
+						<h3>Data Analytics & Software Engineering</h3>
+						<p>RevoU</p>
+						<p>14 Agustus 2023 - 31 Desember 2023</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="portfolio">
+			<h2>My Portfolio</h2>
+			<div class="btn-tab">
+				<button class="active">UI/UX</button>
+				<button>Web Developer</button>
+			</div>
+			<div class="grid">
+				<div class="card">
+					<div class="thumb">
+						<span>Personal Project</span>
+					</div>
+					<h3>Booking Hotel's</h3>
+					<p>View Details -></p>
+				</div>
+				<div class="card">
+					<div class="thumb">
+						<span>Personal Project</span>
+					</div>
+					<h3>Booking Hotel's</h3>
+					<p>View Details -></p>
+				</div>
+				<div class="card">
+					<div class="thumb">
+						<span>Personal Project</span>
+					</div>
+					<h3>Booking Hotel's</h3>
+					<p>View Details -></p>
+				</div>
+				<div class="card">
+					<div class="thumb">
+						<span>Personal Project</span>
+					</div>
+					<h3>Booking Hotel's</h3>
+					<p>View Details -></p>
+				</div>
+				<div class="card">
+					<div class="thumb">
+						<span>Personal Project</span>
+					</div>
+					<h3>Booking Hotel's</h3>
+					<p>View Details -></p>
+				</div>
+				<div class="card">
+					<div class="thumb">
+						<span>Personal Project</span>
+					</div>
+					<h3>Booking Hotel's</h3>
+					<p>View Details -></p>
+				</div>
+			</div>
+			<p class="link">
+				<a href="#">See More -></a>
+			</p>
+		</section>
+
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<p>
+				Have any project ideas? or ask something? or let's collaborate? feel
+				free to contact me in bellow
+			</p>
+			<form>
+				<label for="name">Name</label>
+				<input type="text" id="name" placeholder="Type Your Name" />
+
+				<label for="email">Email</label>
+				<input type="email" id="email" placeholder="Type Your email" />
+
+				<label for="need">What do you need?</label>
+				<select id="need">
+					<option value="">Choose The Services</option>
+					<option value="">Collaboration</option>
+					<option value="">Figma To HTML</option>
+					<option value="">Make a Design System</option>
+				</select>
+
+				<label for="message">Message <span>(Optional)</span></label>
+				<!-- <textarea id="message" cols="30" rows="10"></textarea> -->
+				<textarea
+					name=""
+					id="message"
+					cols="30"
+					rows="10"
+					placeholder="Type your message"></textarea>
+
+				<button>Send Me Project</button>
+			</form>
+		</section>
+		<!-- end main -->
+
+		<!-- footer -->
+		<footer>
+			<p><span>Design & Code</span> By Aria <a href="#">v1.0.0</a></p>
+		</footer>
+		<!-- end footer -->
+
+		<!-- link js -->
+		<script src="app.js"></script>
+	</body>
+</html>
